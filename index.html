@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Be My Valentine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-shapes" aria-hidden="true"></div>
+  <div class="hearts" aria-hidden="true">
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+  </div>
+  <div class="party-overlay" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <main class="page">
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <h1>Hi, will you be my valentine?</h1>
+        <p class="sub">I made this little page just for you. Scroll through our memories and smile with me.</p>
+
+        <div class="question-area" id="questionArea">
+          <button id="yesBtn" class="btn btn-yes">Yes</button>
+          <button id="noBtn" class="btn btn-no" aria-label="No (just kidding)" aria-disabled="true" tabindex="-1">No</button>
+        </div>
+
+        <div class="accent-line">You only get one click. Use it wisely.</div>
+      </div>
+
+      <div class="hero-gallery" aria-label="Our photos">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+          <div class="photo-card"><img src="assets/dummy.svg" alt="Dummy image" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="success" id="success" hidden>
+      <div class="success-card">
+        <h2>Yay! I'm so excited!</h2>
+        <p>I'm gonna make sure you have the best date ever.</p>
+        <div class="party-gif">
+          <img src="assets/cat-ai.gif" alt="Two cats partying" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
